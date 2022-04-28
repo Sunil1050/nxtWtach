@@ -1,0 +1,58 @@
+.login-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.login-card {
+  padding: 30px;
+}
+.website-icon {
+  width: 50%;
+  height: 40px;
+}
+.label {
+  color: #475569;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight:500;
+}
+.login-input {
+  border-width: 0px;
+  padding-left: 14px;
+  height: 36px;
+  border-radius: 8px;
+  width: 90%;
+  border: 1px solid #cbd5e1;
+  outline: none;
+  font-size: 16px;
+  font-family: Roboto;
+  color: #7e858e;
+}
+.checkbox-label {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000;
+  margin-left:8px;
+}
+.err-txt{
+    color:red;
+    font-weight:500;
+    font-size:14px;
+}
+@media screen and (max-width: 576px) {
+  .login-card {
+    width: 90%;
+    padding:30px;
+    border-radius:10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .login-card {
+    width: 400px;
+    padding: 35px;
+     border-radius:10px;
+  }
+}
